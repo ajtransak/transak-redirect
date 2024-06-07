@@ -6,7 +6,6 @@ function Redirect() {
   const navigate = useNavigate();
   const searchParams = new URLSearchParams(window.location.search);
 
-  const walletRedirection = searchParams.get("walletRedirection") === "true";
   const orderId = searchParams.get("orderId");
   const fiatCurrency = searchParams.get("fiatCurrency");
   const cryptoCurrency = searchParams.get("cryptoCurrency");
