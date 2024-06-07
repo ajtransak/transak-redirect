@@ -100,7 +100,7 @@ function Redirect() {
                 </tr>
                 <tr>
                   <td>Is NFT Order</td>
-                  <td>{isNFTOrder}</td>
+                  <td>{isNFTOrder !== "undefined" ? isNFTOrder : "No"}</td>
                 </tr>
                 <tr>
                   <td>Network</td>
