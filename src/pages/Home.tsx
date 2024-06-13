@@ -40,7 +40,7 @@ function Home() {
         </a>
         .
       </p>
-      <Button hrefURL={hrefURL} text="Launch Transak" />
+      <Button hrefURL={hrefURL} text="Launch Transak" target="_self" />
     </div>
   );
 }
